@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Rubik:wght@400;500&display=swap');
+
+/* font-family: 'Nunito', sans-serif; */
+
+/* font-family: 'Rubik', sans-serif;  */
+.container{
+    width:1300px;
+	margin:0 auto;
+	padding:0 15px;
+}
+.container:before,
+.container:after{
+ content:"";
+ display: table;
+ clear:both;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Nunito', sans-serif;
+}
+.col-25{
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+}
+.col-25 a img{
+    height: 50px;
+    width: 150px;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+.col-50{
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+}
+.middle{
+    margin: 150px 0;
+    text-align: center;
+    clear: both;
+}
+.col-33{
+    width: 33.33%;
+    padding: 10px 10px;
+    float: left;
+   
+}
+.img-logo{
+    background: #171F32;
+    padding: 5px 10px;
+    color: #fff;
+}
+.img-logo img{
+    float: left;
+    height: 80px;
+    width: 80px;
+    padding: 5px 5px;
+   
+}
+.home{
+    background: url(../images/1-61.jpg);
+    background-size:cover ;
+    background-repeat:no-repeat ;
+    background-position:center ;
+    height: 100vh;
+}
+.col-50 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px 10px;
+}
+.col-50 ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.col-50 a:hover{
+    color: #FF4F1E;
+}
+.col-25 a{
+    color: #fff;
+    padding: 10px;
+    
+}
+.icon{
+    margin: 30px 20px;
+}
+.head h3{
+    color: #FF4F1E;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 700;
+}
+.head h1{
+    color: #fff;
+    font-size: 58px;
+    line-height: 63px;
+    font-weight: 700;
+}
+.btn{
+    background: #FF5421;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 20px;
+   
+}
+.btn a{
+    text-decoration: none;
+    color: #fff; 
+}
+.fotter{
+  
+}
+.col-33 h4,h5{
+    padding: 5px 10px;
+}
+.col-33 h4{
+    font-size: 22px;
+    line-height: 28px;
+    font-family: 'Nunito', sans-serif; 
+}
+.col-33 h5{
+    font-size: 16px;
+    line-height: 27.2px;
+    font-family: 'Rubik', sans-serif;
+}
+.top-header{
+    text-align: center;
+    margin: 50px 0;
+}
+.top-header h4{
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 28px;
+    color: #F78D52;
+}
+.top-header h2{
+    font-size: 36px;
+    line-height: 40px;
+    
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+.category{
+    background: url(../images/cat_04.jpg);
+    background-size:cover ;
+    background-repeat:no-repeat ;
+    background-position:center ;
+    height: 400px;
+    width: 400px; 
+}
+.category-02{
+    background: url(../images/cat_01.jpg);
+}
+.category-03{
+    background: url(../images/cat_02.jpg);
+}
+.category-04{
+    background: url(../images/cat_03.jpg);
+}
+.category-05{
+    background: url(../images/cat_04.jpg);
+}
+.category-06{
+    background: url(../images/cat_01.jpg);
+}
+.category img{
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+.category h3{
+    color: #fff;
+}
+.category h5{
+    color: #fff;
+}
+.img{
+    padding: 310px 25px;
+}
+.section-category{
+    padding: 5px 5px;
+}
+    
